@@ -1,0 +1,131 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #40514E;
+}
+
+.top-container {
+  position: relative;
+  background-color: #EAF6F6;
+  padding-top: 60px;
+}
+
+.middle-container {
+  padding-top: 20px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 230px;
+}
+.profile{
+  margin: 0 auto 3rem auto;
+  width: 35%;
+}
+.contact-me {
+  margin: 0 auto 4rem auto;
+  width: 35%;
+}h1 {
+  margin: 30px auto 0 auto;
+  font-family: 'Devonshire', cursive;
+  font-size: 6rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Alegreya', serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  line-height: 2;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Alegreya', serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+.path {
+  height: 400px;
+  width: 400px;
+}
+
+.tennis-img {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.guitar-img {
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+hr {
+  border: dotted 6px #EAF6F6;
+  border-bottom: none;
+  width: 5%;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  margin-top: 40px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.footer-link {
+  color: #11999E;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #EAF6F6;
+}
+.footer-text {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+p {
+  line-height: 2;
+}
