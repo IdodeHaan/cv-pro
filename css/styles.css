@@ -37,6 +37,7 @@ p {
 @media (max-width: 900px) {
   p {
     font-size: 2rem;
+    color: red;
   }
   h3 {
     font-size: 2rem;
