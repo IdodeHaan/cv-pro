@@ -3,68 +3,77 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #40514E;
 }
-
-.top-container {
-  position: relative;
-  background-color: #EAF6F6;
-  padding-top: 60px;
-}
-
-.middle-container {
-  padding-top: 20px;
-}
-
-.bottom-container {
-  background-color: #66BFBF;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 300px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 230px;
-}
-.profile{
-  margin: 0 auto 3rem auto;
-  width: 35%;
-}
-.contact-me {
-  margin: 0 auto 4rem auto;
-  width: 35%;
-}h1 {
+h1 {
   margin: 30px auto 0 auto;
   font-family: 'Devonshire', cursive;
   font-size: 6rem;
   color: #66BFBF;
   font-weight: normal;
 }
-
 h2 {
   font-family: 'Alegreya', serif;
-  font-size: 2.5rem;
+  font-size: 2.5em;
+  /* font-size: 2.5rem; */
   color: #66BFBF;
   line-height: 2;
   font-weight: normal;
 }
-
 h3 {
   font-family: 'Alegreya', serif;
   color: #11999E;
 }
-
 a {
   color: #11999E;
 }
+hr {
+  border: dotted 6px #EAF6F6;
+  border-bottom: none;
+  width: 5%;
+}
+p {
+  line-height: 2;
+}
 
+@media (max-width: 900px) {
+  p {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+/* intro */
+
+.top-container {
+  position: relative;
+  background-color: #EAF6F6;
+  padding-top: 60px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 230px;
+}
 .path {
   height: 400px;
   width: 400px;
 }
+
+/* me */
+
+.middle-container {
+  padding-top: 20px;
+}
+.profile {
+  margin: 0 auto 3rem auto;
+  width: 35%;
+}
+
+/* skills */
 
 .tennis-img {
   height: 25%;
@@ -72,7 +81,6 @@ a {
   float: left;
   margin-right: 30px;
 }
-
 .guitar-img {
   height: 25%;
   width: 25%;
@@ -84,10 +92,13 @@ a {
   margin: 100px auto;
   text-align: left;
 }
-hr {
-  border: dotted 6px #EAF6F6;
-  border-bottom: none;
-  width: 5%;
+
+
+/* contact */
+
+.contact-me {
+  margin: 0 auto 4rem auto;
+  width: 35%;
 }
 .myButton {
 	box-shadow: 0px 10px 14px -7px #276873;
@@ -113,6 +124,14 @@ hr {
 	position:relative;
 	top:1px;
 }
+
+/* social */
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .footer-link {
   color: #11999E;
   margin-left: 30px;
@@ -125,7 +144,4 @@ hr {
 .footer-text {
   color: #EAF6F6;
   font-size: 0.75rem;
-}
-p {
-  line-height: 2;
 }
