@@ -36,11 +36,10 @@ p {
 
 @media (max-width: 900px) {
   p {
-    font-size: 2rem;
-    color: red;
+    font-size: 2em;
   }
   h3 {
-    font-size: 2rem;
+    font-size: 2em;
   }
 }
 
